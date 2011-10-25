@@ -1,0 +1,149 @@
+img {
+	border: none;
+}
+
+.tabular-list-full {
+	width: 100%;
+	text-align: left;
+}
+
+.tabular-header {
+	background: #dfefff;
+	font-size: 90%;
+	font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+}
+
+.tabular-header a {
+	color: #0077ab;
+}
+
+.tabular-header {
+	background: #dfefff;
+	font-size: 90%;
+	font-family: Trebuchet MS, Verdana, Arial, sans-serif;
+}
+
+.action-heading {
+	padding: 5px;
+	border-top: 1px solid #001949;
+	border-bottom: 1px solid #001949;
+	font-size: 80%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: normal;
+}
+
+.active-heading {
+	padding: 3px 8px 3px 8px;
+	border-top: 1px solid #001949;
+	border-bottom: 1px solid #001949;
+	font-size: 120%;
+	white-space: nowrap;
+	text-align: left;
+}
+
+.source-heading {
+	padding: 3px 8px 3px 8px;
+	border-top: 1px solid #001949;
+	border-bottom: 1px solid #001949;
+	white-space: nowrap;
+}
+
+.category-heading {
+	padding: 4px 0 4px 5px;
+	background: #eee;
+	font-size: 110%;
+	font-weight: bold;
+	border-bottom: 1px solid #6699cc;
+}
+.category-heading img {
+	vertical-align: middle;
+	padding: 4px;
+}
+
+.tabular-row {
+	font-size: 70%;
+}
+
+.tabular-row:hover, .tabular-row-top:hover {
+	background: #fff3de;
+}
+
+.row-selected {
+	background: #f3e3c8;
+}
+
+.row-action {
+	padding: 3px 0 3px 4px;
+	border-bottom: 1px solid #6699cc;
+	text-align: center;
+}
+
+.row-source {
+	padding: 3px 0 3px 8px;
+	border-bottom: 1px solid #6699cc;
+}
+
+.row-active {
+	padding: 3px 0 3px 8px;
+	border-bottom: 1px solid #6699cc;
+	font-weight: bold;
+}
+
+.tabular-row-top {
+	background-color: #f5f5f5;
+}
+
+.row-action-top {
+	padding: 3px 0 3px 4px;
+	border-bottom: 0;
+}
+
+.row-action-small {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 70%;
+	padding: 3px 0 3px 4px;
+	border-bottom: 1px solid #6699cc;
+}
+
+.selected-line {
+	background-color: #ee9;
+}
+.left-header {
+	text-align: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+pre {
+	line-height: 0.5em;
+}
+#source-data {
+	overflow: scroll;
+	border: thin solid black;
+	padding: 5px;
+	background: #ddd;
+	color: #000;
+}
+.php-minor {
+	background: #cfc;
+}
+.php-notice {
+	background: #ffc;
+}
+.php-warning {
+	background: #fec;
+}
+.php-error {
+	background: #fcc;
+}
+.clickable {
+	cursor: pointer;
+}
+.script-details {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 15px;
+}
+.tabular-partial {
+	width: 60%;
+	float: left;
+}
